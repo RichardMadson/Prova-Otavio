@@ -1,0 +1,54 @@
+ul{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    color: brown;
+}
+.texto{
+    margin-right:50%;
+    margin-left: 25px;
+}
+img{
+    margin-bottom: 200px;
+    text-align: center;
+}
+section{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-right: 25px;
+  }
+  
+  .card {
+    border: 1px solid brown;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  img {
+    max-width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    background-color: brown;
+    margin-bottom: 0px;
+  }
+  footer{
+    padding: 25px;
+    background-color: brown;
+    margin-top: 25px;
+  }
+  
